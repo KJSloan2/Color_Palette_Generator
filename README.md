@@ -31,8 +31,8 @@ In this example, images are sorted into categories based on the location where t
 Note: I have other tools in progress to help automate this process that use YOLO and VGG16 neural networks to sort images by subject mater and ad EXIF extractor to sort images based on the location where they were taken.  
 By sorting images into distinct groups, the user can filter images based on location and subject mater by using the filter buttons on the right side of the window. 
 For example, if you wanted to generate a palette with images form a particular location or of a particular subject mater, you can use the filter tools to filter the colors extracted from the corpus to those found in the filtered image categories.
+![image](https://github.com/KJSloan2/Color_Palette_Generator/blob/main/00_resources/documentation/images/24072700_CPG_imageSpaceComponents.png)
 
 
 ### Color Space
 
-The col
