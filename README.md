@@ -20,8 +20,11 @@ The image space model visualizes all the images fed into the model by the user t
 Images are represented in a 3D image similarity model space, where the closer images are to each other, the more similar their color attributes are. 
 The model uses color moment indexing to calculate the similarity of each image by taking the mean, standard deviation, skew and kurtosis of the color distribution in the image. 
 If you'd like to read more about these processes, please check out the blog posts on my website pertaining to this topic linked below. 
+\
 [Image Database Visualization - DigitalShades.net](https://www.digitalshades.work/project-blog/image-database-visualization)
-[Image Feature Extraction - Color Moment Indexing - DigitalShades.net](https://www.digitalshades.work/project-blog/cbri)
+\
+[Image Feature Extraction - Color Moment Indexing - DigitalShades.net](https://www.digitalshades.work/project-blog/cbri)\
+\
 
 
 Prior to feeding images into the model, the user should sort their image collection into distinct categories. 
