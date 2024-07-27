@@ -47,20 +47,24 @@ The size of the object is a representation of how many unique colors ended up in
 ![image](https://github.com/KJSloan2/Color_Palette_Generator/blob/main/00_resources/documentation/images/24072701_CPG_paletteGeneratorComponents.png)
 \
 **Filter Sliders**
+\
 The user can filters colors based on their dominance level in the palette. 
 The dominance level is derived from the cluster size of the color group from the K-Means clustering process and indicates how frequently the color (and similar colors) appeared across the corpus of images. 
 The user can set a minimum and maximum dominance threshold and the generator will filter colors to those within the given range and update the charts in real time. 
 \
 **Download Button**
+\
 Below the sliders is the download button. 
 After the user has made their color selections, they can click this button to download the selected colors as a CSV.
 \
 **Bar Chart**
+\
 The horizontal bar chart orders colors within the dominance range by level of dominance. 
 The more frequently a color occurs across the corpus of images, the longer the bar and higher in the bar stack it will be. 
 The user can select colors directly from the bar chart by clicking on them. 
 \
 **Dot Chart**
+\
 The dot chart  orders colors within the dominance range by hue value and groups colors based on generalized color groups like reds, oranges, yellows,  greens etc. 
 The user can click and drag dots to move colors side by side for comparison and add the color to their custom palette by clicking on them. 
 D3 event listeners respond to mouseover and click events and graphically change the bar and dot appearance upon selection. 
