@@ -52,16 +52,19 @@ The user can filters colors based on their dominance level in the palette.
 The dominance level is derived from the cluster size of the color group from the K-Means clustering process and indicates how frequently the color (and similar colors) appeared across the corpus of images. 
 The user can set a minimum and maximum dominance threshold and the generator will filter colors to those within the given range and update the charts in real time. 
 \
+\
 **Download Button**
 \
 Below the sliders is the download button. 
 After the user has made their color selections, they can click this button to download the selected colors as a CSV.
+\
 \
 **Bar Chart**
 \
 The horizontal bar chart orders colors within the dominance range by level of dominance. 
 The more frequently a color occurs across the corpus of images, the longer the bar and higher in the bar stack it will be. 
 The user can select colors directly from the bar chart by clicking on them. 
+\
 \
 **Dot Chart**
 \
