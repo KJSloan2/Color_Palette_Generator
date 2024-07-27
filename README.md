@@ -21,7 +21,7 @@ Images are represented in a 3D image similarity model space, where the closer im
 The model uses color moment indexing to calculate the similarity of each image by taking the mean, standard deviation, skew and kurtosis of the color distribution in the image. 
 If you'd like to read more about these processes, please check out the blog posts on my website pertaining to this topic linked below.
 \
-### Blog Post Links\
+### Blog Post Links
 [Image Database Visualization - DigitalShades.net](https://www.digitalshades.work/project-blog/image-database-visualization)
 \
 [Image Feature Extraction - Color Moment Indexing - DigitalShades.net](https://www.digitalshades.work/project-blog/cbri)\
@@ -32,3 +32,7 @@ Note: I have other tools in progress to help automate this process that use YOLO
 By sorting images into distinct groups, the user can filter images based on location and subject mater by using the filter buttons on the right side of the window. 
 For example, if you wanted to generate a palette with images form a particular location or of a particular subject mater, you can use the filter tools to filter the colors extracted from the corpus to those found in the filtered image categories.
 
+
+### Color Space
+
+The col
