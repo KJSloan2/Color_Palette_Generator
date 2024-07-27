@@ -36,3 +36,5 @@ For example, if you wanted to generate a palette with images form a particular l
 
 ### Color Space
 
+### Palette Generator
+![image](https://github.com/KJSloan2/Color_Palette_Generator/blob/main/00_resources/documentation/images/24072701_CPG_paletteGeneratorComponents.png)
